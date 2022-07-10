@@ -1,0 +1,115 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100vh;
+    
+}
+
+h1{
+    color:blue;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow:100%;
+    text-indent: 0%;
+
+    margin: 10px;
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(216, 216, 216);
+   
+}
+
+p{
+    color: black;
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: left;
+    font-weight:lighter;
+    text-transform:initial;
+}
+
+form{
+    background-color: white;
+    width:400px;
+    height:450px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: auto;
+    border:solid white 1px;
+    border-radius:10px;
+    box-shadow: 10px 10px 10px rgb(107, 106, 104);
+}
+input{
+    width:330px;
+    height:58px;
+    padding-left:10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: solid rgb(161, 160, 159) 2px;
+    border-radius:7px;
+    font-size: 18px;
+}
+input:focus{
+    margin-bottom: 10px;
+    border: solid blue 2px;
+    outline: none;
+}
+#btn1{
+    background-color: rgb(4, 49, 248);
+    width:330px;
+    height:58px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color: white;
+    border:solid blue 2px;
+    border-radius: 7px;
+    font-size: 21px;
+}
+
+#btn1:hover{
+    background-color: rgb(21, 49, 173);
+    border:solid rgb(21, 49, 173);
+    transition: 0.2s;
+}
+
+#btn2{
+    background-color: green;
+    width:300px;
+    height:58px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom:5px;
+    border:green 2px;
+    color: white;
+    border-radius: 7px;
+    font-size:20px;
+;
+}
+#btn2:hover{
+    background-color:rgb(5, 83, 5);
+    border:solid rgb(5, 83, 5);
+    transition: 0.2s;
+}
+
+a{
+    text-decoration:none;
+    color: blue;
+    font-size:19px;
+    font-family:sans-serif;
+}
+hr{
+    margin-top:20px;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+a:visited{
+    color: purple;
+}
